@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Airline-Service:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Airline-Service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Airline-Service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Airline-Service:war exploded" />
+    </root>
+  </artifact>
+</component>
